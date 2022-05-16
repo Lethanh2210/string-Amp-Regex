@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var ClassRegex_1 = require("./ClassRegex");
+var classes = new ClassRegex_1.ClassRegex();
+var name1 = 'C0318G';
+var name2 = 'M0318G';
+var name3 = 'P0323A';
+console.log(classes.validateClass(name1));
+console.log(classes.validateClass(name2));
+console.log(classes.validateClass(name3));
